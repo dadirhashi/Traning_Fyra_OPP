@@ -5,30 +5,23 @@
         static void Main(string[] args)
         {
 
-            Person person = new Person();
-            person.Name = "Alice";
-            person.Age = 30;
-            person.Introduce();
+        
+            Student student = new Student();
+
+            student.Major = "Math";
+            student.Age = 30;
+            student.Name = "Alice";
+            student.Id = 1234567;
+
+            student.Introduce();
+            student.Study();
+
             // The following line would cause a compilation error because SocialSecurityNumber is private
             // person.SocialSecurityNumber = 123456789;
 
-        }
-
-
-        public class Person
-        {
-            public string Name;
-            public int Age;
-            private int SocialSecurityNumber;
-
-            public void Introduce()
-            {
-                Console.WriteLine($"Hello, my name is {Name} and I am {Age} years old.");
-            }
-
-
-
+            
 
         }
+  
     }
 }
