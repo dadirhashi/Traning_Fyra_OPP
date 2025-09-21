@@ -7,7 +7,7 @@
 
         public void Study()
         {
-            Console.WriteLine($"Hello my name is {Name}.My major is {Major}. I am {Age} years old and my student ID is {Id}.");
+            Console.WriteLine($"My major is {Major},and my student ID is {Id}.");
             // Accessing inherited public field Name
         }
 

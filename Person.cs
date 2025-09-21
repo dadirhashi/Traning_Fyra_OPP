@@ -10,7 +10,7 @@
      
         public void Introduce()
         {
-          SocialSecurityNumber = 0;
+          Console.WriteLine($"Hello, my name is {Name} and I am {Age} years old.");
         }
 
     }
